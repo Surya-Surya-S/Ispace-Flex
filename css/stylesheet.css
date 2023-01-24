@@ -74,9 +74,9 @@ a{
 .banner_top h2::before{
     content: " ";
     width: 6px;
-    height: 52px;
-    bottom: 38px;
-    right: 362px;
+    height: 54px;
+    bottom: 35px;
+    right: 370px;
     transform: translate(50%,50%);
     background-color: #cedb32;
     display: inline-block;

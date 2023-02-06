@@ -23,6 +23,10 @@
 }
 .th_content{
     width: 96%;
+    margin-bottom: 36px;
+}
+.thContent h4{
+    width: 88%;
 }
 .simplyInner{
     padding-bottom: 0;
@@ -32,7 +36,7 @@
     margin-bottom: 30px;
 }
 .innerRight h2{
-    font-size: 18px;
+    font-size: 16px;
 }
 .innerRight p{
     font-size: 10px;

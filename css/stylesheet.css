@@ -25,11 +25,8 @@ a{
 .menu ul{
     width: 90%;
     margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
 }
-.menu li{
+.menu ul, .menu li{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -103,6 +100,7 @@ a{
 .divs_inner{
     width: 90%;
     display: flex;
+    flex-wrap: wrap;
     margin: 0 auto;
 }
 .three_inner{
@@ -162,6 +160,7 @@ a{
 .thInner{
     width: 90%;
     display: flex;
+    flex-wrap: wrap;
     margin: 0 auto;   
 }
 .th_content{
@@ -211,7 +210,7 @@ a{
 }
 .thLink{
     text-align: left;
-    margin: 0 0 0 30px;
+    margin: 0 0 0 27px;
 }
 .thLink a{
     font-size: 16px;
@@ -230,14 +229,16 @@ a{
 }
 .simplyInner{
     width: 90%;
-    display: flex;
     border-bottom: 1px solid #f1f1f1;
     padding: 0 0 50px 0;
     margin: 0 auto;
 }
+.simplyInner, .simply_left, .simply_right{
+    display: flex;
+    flex-wrap: wrap;
+}
 .simply_left{
     width: 46%;
-    display: flex;
     text-align: center;
     margin: 0 auto;
 }
@@ -280,7 +281,6 @@ a{
 }
 .simply_right{
     width: 46%;
-    display: flex;
     text-align: center;
     margin: 0 auto;
 }

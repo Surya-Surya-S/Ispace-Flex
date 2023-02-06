@@ -211,7 +211,7 @@ a{
 }
 .thLink{
     text-align: left;
-    margin: 0 0 0 33px;
+    margin: 0 0 0 30px;
 }
 .thLink a{
     font-size: 16px;
@@ -305,6 +305,6 @@ a{
 }
 .footer_bg{
     background-color: #68655f;
-    padding: 20px 0;
+    padding: 30px 0;
 }
 /* footer */

@@ -19,7 +19,7 @@ a{
     background-color: #fcfcfc;
 }
 .hl_inner{
-    width: 72%;
+    width: 66%;
     margin: 0 auto;
 }
 .menu ul{
@@ -27,18 +27,19 @@ a{
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 .menu li{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 .menu a{
     font-size: 14px;
     color: #000;
     text-transform: uppercase;
     display: inline-block;
-    padding: 44px 16px;
-    margin: 0 28px 0 0;
+    padding: 40px 30px;
 }
 .menu a:hover{
     background-color: #cedb32;
@@ -75,8 +76,8 @@ a{
     content: " ";
     width: 6px;
     height: 54px;
-    bottom: 35px;
-    right: 370px;
+    bottom: 50%;
+    left: 35%;
     transform: translate(50%,50%);
     background-color: #cedb32;
     display: inline-block;
@@ -129,14 +130,11 @@ a{
     padding: 14px 0;
 }
 .inner_img{
-    width: 266px;
-    margin: 0 0 20px;
+    width: 365px;
+    margin: 0 auto 20px;
 }
 .inner_img img{
     width: 100%;
-}
-.inner_img.left, .inner_img.right {
-    width: 278px;
 }
 .content_para{
     width: 76%;  
@@ -213,7 +211,7 @@ a{
 }
 .thLink{
     text-align: left;
-    margin: 0 0 0 25px;
+    margin: 0 0 0 33px;
 }
 .thLink a{
     font-size: 16px;
